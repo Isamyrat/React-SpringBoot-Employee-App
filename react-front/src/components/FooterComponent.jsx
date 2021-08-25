@@ -13,7 +13,7 @@ class FooterComponent extends Component {
         return (
             <div>
                 <footer className="footer">
-                    <span className="text-muted">All Rights Reserved 2025 @JavaGuides</span>
+                    <span className="text-muted">All Rights Reserved {new Date().getFullYear()}</span>
                 </footer>
             </div>
         )
